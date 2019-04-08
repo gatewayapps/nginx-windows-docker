@@ -1,0 +1,1 @@
+2019/04/08 15:26:48 [error] 19368#24920: *1 CreateFile() "C:\Users\danie\Downloads\nginx-1.15.10/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost"

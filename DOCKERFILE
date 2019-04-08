@@ -1,0 +1,10 @@
+FROM microsoft/nanoserver
+
+EXPOSE 80 443
+WORKDIR C:/nginx
+
+RUN powershell.exe New-Item C:/conf -ItemType "Directory"
+
+ADD ./nginx c:/nginx
+
+CMD "C:/nginx/nginx.exe"
